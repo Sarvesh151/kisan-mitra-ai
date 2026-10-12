@@ -19,3 +19,9 @@ backend/uploads/*
 !backend/uploads/.gitkeep
 
 __pycache__/
+
+# Large training dataset - keep locally
+dataset/raw/
+dataset/train/
+dataset/valid/
+dataset/test/
