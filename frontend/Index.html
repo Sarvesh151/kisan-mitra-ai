@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Kisan Mitra AI</title>
+
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+
+        <!-- BRAND -->
+
+        <a
+            class="brand"
+            href="#"
+        >
+
+            <div class="brand-logo">
+    <img
+        src="/static/assets/logo.png"
+        alt="Kisan Mitra AI Logo"
+    >
+</div>
+
+            <div class="brand-text">
+
+                <h2>
+                    Kisan Mitra AI
+                </h2>
+
+                <span>
+                    Smart Crop Disease Assistant
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="nav-links">
+
+            <a
+                href="#"
+                class="active"
+            >
+                 Home
+            </a>
+
+            <a href="#about">
+                 About
+            </a>
+
+            <a href="#how-it-works">
+                 How It Works
+            </a>
+<a href="#weather">
+     Weather
+</a>
+
+<a href="/logout" class="logout-btn">
+    🚪 Logout
+</a>
+
+
+        </nav>
+
+
+        <!-- STATUS -->
+
+        <div class="system-status">
+
+            <span class="status-dot"></span>
+
+            AI System Ready
+
+        </div>
+
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================================================
+     MAIN
+========================================================= -->
+
+<main>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero">
+
+
+    <div class="hero-container">
+
+
+        <!-- LEFT CONTENT -->
+
+        <div class="hero-content">
+
+
+            <div class="hero-badge">
+
+                 Empowering Farmers with AI
+
+            </div>
+
+
+            <h1>
+
+                AI-Powered
+                <br>
+
+                Crop Disease
+                <br>
+
+                <span>
+                    Assistant
+                </span>
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Upload a leaf image and get instant
+                disease detection results, treatment
+                guidance, medicine recommendations
+                and educational videos.
+
+            </p>
+
+
+            <!-- HERO FEATURES -->
+
+            <div class="hero-features">
+
+
+                <div class="hero-feature">
+
+                    <div class="feature-icon green">
+                        🛡
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Accurate
+                        </strong>
+
+                        <small>
+                            AI Prediction
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="hero-feature">
+
+                    <div class="feature-icon blue">
+                        📋
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Expert
+                        </strong>
+
+                        <small>
+                            Guidance
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="hero-feature">
+
+                    <div class="feature-icon orange">
+                        🎥
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Helpful
+                        </strong>
+
+                        <small>
+                            Videos
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- RIGHT FARMER IMAGE -->
+
+        <div class="hero-image">
+
+            <img
+                src="/static/assets/farmer.jpg"
+                alt="Farmer working in crop field"
+            >
+
+        </div>
+
+
+    </div>
+
+
+    <!-- GREEN CURVE -->
+
+    <div class="hero-bottom"></div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     UPLOAD SECTION
+========================================================= -->
+
+<section
+    class="upload-section"
+    id="how-it-works"
+>
+
+
+    <div class="upload-card">
+
+
+        <!-- UPLOAD -->
+
+        <div
+            class="upload-box"
+            id="uploadBox"
+        >
+
+
+            <div class="camera-circle">
+                📷
+            </div>
+
+
+            <h2>
+                Upload Leaf Image
+            </h2>
+
+
+            <p>
+                Drag &amp; drop your image here
+                or choose from your device
+            </p>
+
+
+            <input
+                type="file"
+                id="imageInput"
+                accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp"
+                hidden
+            >
+
+
+            <button
+                type="button"
+                class="choose-btn"
+                id="chooseImageBtn"
+            >
+
+                📁 Choose Image
+
+            </button>
+
+
+            <small>
+                Supports: JPG, JPEG, PNG, WEBP
+            </small>
+
+
+        </div>
+
+
+
+        <!-- IMAGE PREVIEW -->
+
+        <div class="preview-box">
+
+
+            <h3>
+                Image Preview
+            </h3>
+
+
+            <div class="preview-area">
+
+
+                <div
+                    id="previewPlaceholder"
+                    class="preview-placeholder"
+                >
+
+                    <div class="leaf-placeholder">
+                        
+                    </div>
+
+                    <span>
+                        No image selected
+                    </span>
+
+                </div>
+
+
+                <img
+                    id="previewImage"
+                    class="preview-image"
+                    alt="Selected crop leaf"
+                >
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- ANALYZE BUTTON -->
+
+        <button
+            type="button"
+            id="analyzeBtn"
+            class="analyze-btn"
+            disabled
+        >
+
+            🔍 Analyze Crop
+
+        </button>
+
+
+        <div
+            id="analysisStatus"
+            class="analysis-status"
+            aria-live="polite"
+        ></div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     FEATURES
+========================================================= -->
+
+<section
+    class="features-section"
+    id="about"
+>
+
+
+    <div class="features-container">
+
+
+        <div class="feature-item">
+    <img
+        src="/static/assets/logo_2.png"
+        alt="Disease Detection"
+        class="feature-logo"
+    >
+
+    <div class="feature-content">
+        <h3>Disease Detection</h3>
+        <p>Advanced AI model for accurate disease detection</p>
+        </div>
+     </div>
+
+
+        <div class="feature-item">
+    <img src="/static/assets/logo_3.png"
+         alt="Treatment Guidance"
+         class="feature-logo">
+
+    <div class="feature-content">
+        <h3>Treatment Guidance</h3>
+        <p>Get detailed treatment and prevention methods</p>
+    </div>
+</div>
+
+<div class="feature-item">
+    <img src="/static/assets/logo_4.png"
+         alt="Medicine Options"
+         class="feature-logo">
+
+    <div class="feature-content">
+        <h3>Medicine Options</h3>
+        <p>Recommended medicines and management options</p>
+    </div>
+</div>
+
+
+
+        <div class="feature-item">
+    <img src="/static/assets/logo_5.png"
+         alt="Educational Videos"
+         class="feature-logo">
+
+    <div class="feature-content">
+        <h3>Educational Videos</h3>
+        <p>Helpful videos in local language for farmers</p>
+    </div>
+</div>
+    </div>
+
+
+</section>
+
+<!-- =========================================================
+     ASK KISAN MITRA AI
+========================================================= -->
+
+<section
+    class="chat-section"
+    id="ask-ai"
+>
+
+    <div class="chat-card">
+
+        <div class="chat-header">
+
+            <div>
+
+                <span class="chat-badge">
+                     AI FARMER ASSISTANT
+                </span>
+
+                <h2>
+                    Ask Kisan Mitra AI
+                </h2>
+
+                <p>
+                    Ask your farming questions and get
+                    AI-powered answers instantly.
+                </p>
+
+            </div>
+
+            <div class="chat-ai-icon">
+                🌾
+            </div>
+
+        </div>
+
+
+        <!-- LANGUAGE -->
+
+        <div class="chat-language">
+
+            <label for="chatLanguage">
+                🌐 Language
+            </label>
+
+            <select id="chatLanguage">
+
+                <option value="Hindi">
+                    हिन्दी
+                </option>
+
+                <option value="English">
+                    English
+                </option>
+
+                <option value="Bhojpuri">
+                    भोजपुरी
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- CHAT -->
+
+        <div
+            id="chatMessages"
+            class="chat-messages"
+        >
+
+            <div class="chat-message ai">
+
+                <div class="chat-avatar">
+                    
+                </div>
+
+                <div class="chat-bubble">
+
+                    <strong>
+                        Namaste! 
+                    </strong>
+
+                    <p>
+                        Main Kisan Mitra AI hoon.
+                        Aap fasal, disease, treatment,
+                        prevention ya kheti ke baare mein
+                        kuch bhi pooch sakte hain.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- INPUT -->
+
+        <div class="chat-input-area">
+
+            <button
+                type="button"
+                id="voiceBtn"
+                class="voice-btn"
+                title="Voice Input"
+            >
+                🎙️
+            </button>
+
+
+            <textarea
+                id="chatInput"
+                rows="1"
+                placeholder="Apna sawal yahan likhein..."
+            ></textarea>
+
+
+            <button
+                type="button"
+                id="sendChatBtn"
+                class="send-chat-btn"
+            >
+                ➤
+            </button>
+
+        </div>
+
+
+        <div
+            id="voiceStatus"
+            class="voice-status"
+        ></div>
+
+
+        <div class="chat-hint">
+
+            🎙️ Bolkar sawal poochhein
+            &nbsp; • &nbsp;
+            🔊 AI answer sun sakte hain
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+=================div>
+
+
+    ======================================== -->
+
+<!-- Crop analysis result target; must exist before script loads -->
+<section id="resultSection" class="result-section" style="display:none;">
+    <div id="resultContent" class="result-card"></div>
+</section>
+
+<script src="/static/script.js" defer></script>
+
+
+<!-- ================= KISAN WEATHER ================= -->
+<section id="weather" style="
+    padding:50px 20px;
+    background:#f5fbf5;
+    margin-top:30px;
+">
+
+    <div style="
+        max-width:1000px;
+        margin:auto;
+        text-align:center;
+    ">
+
+        <h2 style="
+            color:#2e7d32;
+            font-size:32px;
+            margin-bottom:10px;
+        ">
+             Know About Weather
+        </h2>
+
+        <p style="
+            color:#555;
+            margin-bottom:25px;
+        ">
+          check the weather of villege,city or district. 
+        </p>
+
+        <!-- LOCATION SEARCH -->
+        <div style="
+            display:flex;
+            gap:10px;
+            justify-content:center;
+            align-items:center;
+            flex-wrap:wrap;
+            margin-bottom:20px;
+        ">
+
+            <input
+                type="text"
+                id="weatherLocation"
+                placeholder="City / District ka naam"
+                style="
+                    width:280px;
+                    max-width:90%;
+                    padding:13px 15px;
+                    border:1px solid #ccc;
+                    border-radius:8px;
+                    font-size:16px;
+                    outline:none;
+                "
+            >
+
+            <button
+                onclick="searchWeather()"
+                style="
+                    padding:13px 20px;
+                    border:none;
+                    border-radius:8px;
+                    background:#2e7d32;
+                    color:white;
+                    font-size:15px;
+                    cursor:pointer;
+                "
+            >
+                 Check Weather
+            </button>
+
+            <button
+                onclick="useMyLocation()"
+                style="
+                    padding:13px 20px;
+                    border:none;
+                    border-radius:8px;
+                    background:#1565c0;
+                    color:white;
+                    font-size:15px;
+                    cursor:pointer;
+                "
+            >
+                My Location
+            </button>
+
+        </div>
+
+
+        <!-- ERROR / STATUS -->
+        <div
+            id="weatherError"
+            style="
+                display:none;
+                margin:15px auto;
+                padding:12px;
+                max-width:700px;
+                border-radius:8px;
+                background:#ffebee;
+                color:#c62828;
+            "
+        ></div>
+
+
+        <!-- WEATHER RESULT -->
+        <div
+            id="weatherResult"
+            style="
+                display:none;
+                margin-top:25px;
+            "
+        >
+
+            <!-- LOCATION NAME -->
+            <h3
+                id="weatherPlace"
+                style="
+                    color:#2e7d32;
+                    margin-bottom:20px;
+                "
+            ></h3>
+
+
+            <!-- WEATHER CARDS -->
+            <div style="
+                display:grid;
+                grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+                gap:15px;
+                max-width:900px;
+                margin:auto;
+            ">
+
+                <!-- TEMPERATURE -->
+                <div style="
+                    background:white;
+                    padding:22px;
+                    border-radius:12px;
+                    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+                ">
+                    <div style="font-size:30px;">🌡️</div>
+
+                    <div style="
+                        color:#777;
+                        margin-top:8px;
+                    ">
+                        Temperature
+                    </div>
+
+                    <strong
+                        id="weatherTemp"
+                        style="
+                            display:block;
+                            font-size:25px;
+                            color:#2e7d32;
+                            margin-top:5px;
+                        "
+                    >
+                        --
+                    </strong>
+                </div>
+
+
+                <!-- HUMIDITY -->
+                <div style="
+                    background:white;
+                    padding:22px;
+                    border-radius:12px;
+                    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+                ">
+                    <div style="font-size:30px;">💧</div>
+
+                    <div style="
+                        color:#777;
+                        margin-top:8px;
+                    ">
+                        Humidity
+                    </div>
+
+                    <strong
+                        id="weatherHumidity"
+                        style="
+                            display:block;
+                            font-size:25px;
+                            color:#2e7d32;
+                            margin-top:5px;
+                        "
+                    >
+                        --
+                    </strong>
+                </div>
+
+
+                <!-- RAIN -->
+                <div style="
+                    background:white;
+                    padding:22px;
+                    border-radius:12px;
+                    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+                ">
+                    <div style="font-size:30px;">🌧️</div>
+
+                    <div style="
+                        color:#777;
+                        margin-top:8px;
+                    ">
+                        Rain Probability
+                    </div>
+
+                    <strong
+                        id="weatherRain"
+                        style="
+                            display:block;
+                            font-size:25px;
+                            color:#2e7d32;
+                            margin-top:5px;
+                        "
+                    >
+                        --
+                    </strong>
+                </div>
+
+
+                <!-- WIND -->
+                <div style="
+                    background:white;
+                    padding:22px;
+                    border-radius:12px;
+                    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+                ">
+                    <div style="font-size:30px;">💨</div>
+
+                    <div style="
+                        color:#777;
+                        margin-top:8px;
+                    ">
+                        Wind Speed
+                    </div>
+
+                    <strong
+                        id="weatherWind"
+                        style="
+                            display:block;
+                            font-size:25px;
+                            color:#2e7d32;
+                            margin-top:5px;
+                        "
+                    >
+                        --
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <!-- FARMER ADVICE -->
+            <div
+                id="weatherAdvice"
+                style="
+                    max-width:900px;
+                    margin:25px auto 0;
+                    padding:20px;
+                    background:#e8f5e9;
+                    border-left:5px solid #2e7d32;
+                    border-radius:8px;
+                    text-align:left;
+                    color:#333;
+                    line-height:1.6;
+                "
+            >
+                Farming advice based on the current weather will appear here.
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<script>
+
+/* ==========================================
+   WEATHER SEARCH
+========================================== */
+
+async function searchWeather() {
+
+    const locationInput =
+        document.getElementById("weatherLocation");
+
+    const query =
+        locationInput.value.trim();
+
+    const errorBox =
+        document.getElementById("weatherError");
+
+    if (!query) {
+
+        errorBox.innerText =
+            "Please city ya district ka naam enter karein.";
+
+        errorBox.style.display = "block";
+
+        return;
+    }
+
+    errorBox.style.display = "none";
+
+    try {
+
+        const response =
+            await fetch(
+                "/api/weather/search?q=" +
+                encodeURIComponent(query)
+            );
+
+        if (!response.ok) {
+            throw new Error("Location search failed");
+        }
+
+        const data =
+            await response.json();
+
+        if (
+            !data ||
+            !data.results ||
+            data.results.length === 0
+        ) {
+
+            errorBox.innerText =
+                "Location nahi mili. Please doosra city/district try karein.";
+
+            errorBox.style.display = "block";
+
+            return;
+        }
+
+        /*
+         * First matching location use kar rahe hain
+         */
+        const location =
+            data.results[0];
+
+        loadWeather(
+            location.latitude,
+            location.longitude,
+            location.name ||
+            query
+        );
+
+    } catch (error) {
+
+        console.error(error);
+
+        errorBox.innerText =
+            "Weather search me problem aa gayi.";
+
+        errorBox.style.display = "block";
+    }
+}
+
+
+/* ==========================================
+   MY LOCATION / GPS
+========================================== */
+
+function useMyLocation() {
+
+    const errorBox =
+        document.getElementById("weatherError");
+
+    errorBox.style.display = "none";
+
+    if (!navigator.geolocation) {
+
+        errorBox.innerText =
+            "Aapka browser location support nahi karta.";
+
+        errorBox.style.display = "block";
+
+        return;
+    }
+
+    errorBox.innerText =
+        "Aapki location detect ki ja rahi hai...";
+
+    errorBox.style.display = "block";
+
+
+    navigator.geolocation.getCurrentPosition(
+
+        function(position) {
+
+            const latitude =
+                position.coords.latitude;
+
+            const longitude =
+                position.coords.longitude;
+
+            errorBox.style.display = "none";
+
+            loadWeather(
+                latitude,
+                longitude,
+                "📍 My Location"
+            );
+        },
+
+        function(error) {
+
+            console.error(error);
+
+            errorBox.innerText =
+                "Location permission nahi mili. Browser me location permission Allow karein.";
+
+            errorBox.style.display = "block";
+        },
+
+        {
+            enableHighAccuracy: false,
+            timeout: 10000,
+            maximumAge: 300000
+        }
+    );
+}
+
+
+/* ==========================================
+   LOAD WEATHER
+========================================== */
+
+async function loadWeather(
+    latitude,
+    longitude,
+    placeName
+) {
+
+    const errorBox =
+        document.getElementById("weatherError");
+
+    const resultBox =
+        document.getElementById("weatherResult");
+
+
+    errorBox.style.display = "none";
+
+
+    try {
+
+        const response =
+            await fetch(
+                "/api/weather?lat=" +
+                latitude +
+                "&lon=" +
+                longitude
+            );
+
+
+        if (!response.ok) {
+            throw new Error("Weather API failed");
+        }
+
+
+        const data =
+            await response.json();
+
+        if (!data || !data.success) {
+            throw new Error(data?.error || "Weather data unavailable");
+        }
+
+        // Save the selected location and forecast for the chatbot.
+        const weatherContext = {
+            place: placeName || "Selected location",
+            current: data.current || data.current_weather || {},
+            today: Array.isArray(data.daily_forecast)
+                ? (data.daily_forecast[0] || {})
+                : {},
+            nextDays: Array.isArray(data.daily_forecast)
+                ? data.daily_forecast.slice(0, 7)
+                : [],
+            timezone: data.location?.timezone || "auto",
+            fetchedAt: new Date().toISOString()
+        };
+        localStorage.setItem(
+            "kisanWeatherContext",
+            JSON.stringify(weatherContext)
+        );
+
+        console.log("Weather Data:", data);
+
+
+        /*
+         * Current weather
+         */
+        const current =
+            data.current || data.current_weather || {};
+
+
+        /*
+         * Temperature
+         */
+        const temperature =
+            current.temperature ??
+            current.temperature_2m ??
+            "--";
+
+
+        /*
+         * Humidity
+         */
+        const humidity =
+            current.relative_humidity ??
+            current.relative_humidity_2m ??
+            "--";
+
+
+        /*
+         * Rain probability
+         */
+        let rainProbability =
+            current.rain_probability ??
+            current.precipitation_probability ??
+            "--";
+
+
+        /*
+         * Wind
+         */
+        const wind =
+            current.wind_speed ??
+            current.wind_speed_10m ??
+            "--";
+
+
+        /*
+         * Update UI
+         */
+
+        document.getElementById(
+            "weatherPlace"
+        ).innerText =
+            placeName || "Weather";
+
+
+        document.getElementById(
+            "weatherTemp"
+        ).innerText =
+            temperature + " °C";
+
+
+        document.getElementById(
+            "weatherHumidity"
+        ).innerText =
+            humidity + " %";
+
+
+        document.getElementById(
+            "weatherRain"
+        ).innerText =
+            rainProbability === "--"
+                ? "--"
+                : rainProbability + " %";
+
+
+        document.getElementById(
+            "weatherWind"
+        ).innerText =
+            wind + " km/h";
+
+
+        /*
+         * Farmer Advice
+         */
+
+        let advice =
+            getWeatherAdvice(
+                temperature,
+                humidity,
+                rainProbability,
+                wind
+            );
+
+
+        document.getElementById(
+            "weatherAdvice"
+        ).innerHTML =
+            "<strong>Kisan Salah:</strong> " +
+            advice;
+
+
+        /*
+         * Show result
+         */
+
+        resultBox.style.display =
+            "block";
+
+
+        /*
+         * Smooth scroll
+         */
+
+        resultBox.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+
+
+    } catch (error) {
+
+        console.error(error);
+
+        errorBox.innerText =
+            "❌ Weather data load nahi ho paya. Please thodi der baad try karein.";
+
+        errorBox.style.display =
+            "block";
+    }
+}
+
+/* ==========================================
+   FARMER WEATHER ADVICE
+========================================== */
+
+function getWeatherAdvice(
+    temperature,
+    humidity,
+    rain,
+    wind
+) {
+
+    let advice = [];
+
+
+    const temp =
+        parseFloat(temperature);
+
+    const hum =
+        parseFloat(humidity);
+
+    const rainValue =
+        parseFloat(rain);
+
+    const windValue =
+        parseFloat(wind);
+
+
+    if (!isNaN(rainValue) && rainValue >= 60) {
+
+        advice.push(
+            "Baarish ki sambhavna zyada hai, isliye irrigation temporarily avoid karein aur harvested crop ko safe jagah rakhein."
+        );
+    }
+
+
+    if (!isNaN(rainValue) && rainValue < 20) {
+
+        advice.push(
+            "Baarish ki sambhavna kam hai, fasal ki moisture condition check karke irrigation ki planning karein."
+        );
+    }
+
+
+    if (!isNaN(temp) && temp >= 35) {
+
+        advice.push(
+            "Temperature zyada hai. Fasal me moisture maintain karein aur dopahar ke samay unnecessary field activity avoid karein."
+        );
+    }
+
+
+    if (!isNaN(hum) && hum >= 80) {
+
+        advice.push(
+            "Humidity zyada hai. Fasal me fungal disease ke symptoms par nazar rakhein."
+        );
+    }
+
+
+    if (!isNaN(windValue) && windValue >= 25) {
+
+        advice.push(
+            "💨 Tez hawa chal sakti hai. Kamzor plants aur support wali crops ko check karein."
+        );
+    }
+
+
+    if (advice.length === 0) {
+
+        advice.push(
+            " Weather normal lag raha hai. Fasal ki regular monitoring karein aur irrigation/pesticide decision local field condition ke according lein."
+        );
+    }
+
+
+    return advice.join("<br><br>");
+}
+
+/* ==========================================
+   ENTER KEY SEARCH
+========================================== */
+
+document
+    .getElementById("weatherLocation")
+    .addEventListener(
+        "keypress",
+        function(event) {
+
+            if (event.key === "Enter") {
+
+                searchWeather();
+            }
+        }
+    );
+
+</script>
+
+</body>
+</html>

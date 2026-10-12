@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Login - Kisan Mitra AI
+    </title>
+
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+
+            margin: 0;
+
+            min-height: 100vh;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-family:
+                Arial,
+                sans-serif;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #e9f7ec,
+                    #f8fff9
+                );
+
+        }
+
+
+        .login-card {
+
+            width: 420px;
+
+            max-width: 92%;
+
+            background: white;
+
+            padding: 35px;
+
+            border-radius: 18px;
+
+            box-shadow:
+                0 15px 45px
+                rgba(
+                    0,
+                    0,
+                    0,
+                    0.10
+                );
+
+        }
+
+
+        .logo {
+
+            width: 70px;
+
+            height: 70px;
+
+            margin: auto;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            border-radius: 20px;
+
+            background: #e9f7eb;
+
+            font-size: 38px;
+
+        }
+
+
+        h1 {
+
+            text-align: center;
+
+            color: #1d4d2a;
+
+            margin:
+                18px 0 5px;
+
+        }
+
+
+        .subtitle {
+
+            text-align: center;
+
+            color: #6b7d70;
+
+            margin-bottom: 28px;
+
+        }
+
+
+        label {
+
+            display: block;
+
+            margin:
+                13px 0 6px;
+
+            font-weight: 600;
+
+            color: #36523d;
+
+        }
+
+
+        input {
+
+            width: 100%;
+
+            padding: 13px;
+
+            border:
+                1px solid #d7e3da;
+
+            border-radius: 9px;
+
+            outline: none;
+
+            font-size: 15px;
+
+        }
+
+
+        input:focus {
+
+            border-color: #4d9c5d;
+
+        }
+
+
+        button {
+
+            width: 100%;
+
+            border: none;
+
+            padding: 14px;
+
+            margin-top: 22px;
+
+            border-radius: 9px;
+
+            background: #3d8b4b;
+
+            color: white;
+
+            font-size: 16px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+        }
+
+
+        button:hover {
+
+            background: #32753e;
+
+        }
+
+
+        .error {
+
+            background: #fff0f0;
+
+            border:
+                1px solid #efc3c3;
+
+            color: #a32626;
+
+            padding: 10px;
+
+            border-radius: 8px;
+
+            margin-bottom: 15px;
+
+            text-align: center;
+
+        }
+
+
+        .register {
+
+            text-align: center;
+
+            margin-top: 20px;
+
+            color: #68766c;
+
+        }
+
+
+        .register a {
+
+            color: #358044;
+
+            font-weight: bold;
+
+            text-decoration: none;
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="login-card">
+
+
+    <div class="logo">
+        🌱
+    </div>
+
+
+    <h1>
+        Kisan Mitra AI
+    </h1>
+
+
+    <div class="subtitle">
+        Smart Crop Disease Assistant
+    </div>
+
+
+    {% if error %}
+
+        <div class="error">
+            {{ error }}
+        </div>
+
+    {% endif %}
+
+
+    <form
+        method="POST"
+        action="/login"
+    >
+
+
+        <label>
+            Email
+        </label>
+
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+        >
+
+
+        <label>
+            Password
+        </label>
+
+
+        <input
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+        >
+
+
+        <button
+            type="submit"
+        >
+            🔐 Login
+        </button>
+
+
+    </form>
+
+
+    <div class="register">
+
+        New farmer?
+
+        <a href="/register">
+            Create an account
+        </a>
+    
+    <div class="admin-login">
+    <a href="/admin-login" class="admin-login-btn">
+        🔐 Admin Login
+    </a>
+</div>
+    </div>
+
+
+</div>
+
+
+</body>
+
+</html>

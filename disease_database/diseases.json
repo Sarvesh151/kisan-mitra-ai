@@ -1,0 +1,955 @@
+{
+    "Apple___Apple_scab": {
+        "name": "Apple Scab",
+        "crop": "Apple",
+        "type": "fungal",
+        "severity": "moderate_to_high",
+        "description": "A plant health condition affecting Apple that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Olive-green to brown leaf spots",
+            "Brown corky spots on fruit"
+        ],
+        "causes": [
+            "Venturia inaequalis"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Apple___Black_rot": {
+        "name": "Apple Black Rot",
+        "crop": "Apple",
+        "type": "fungal",
+        "severity": "moderate_to_high",
+        "description": "A plant health condition affecting Apple that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Purple-bordered leaf spots",
+            "Brown fruit rot",
+            "Branch cankers"
+        ],
+        "causes": [
+            "Botryosphaeria obtusa"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Apple___Cedar_apple_rust": {
+        "name": "Cedar-Apple Rust",
+        "crop": "Apple",
+        "type": "fungal",
+        "severity": "moderate",
+        "description": "A plant health condition affecting Apple that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Yellow to orange-red leaf spots",
+            "Dark dots or orange structures"
+        ],
+        "causes": [
+            "Gymnosporangium rust fungi"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Apple___healthy": {
+        "name": "Healthy Apple",
+        "crop": "Apple",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Blueberry___healthy": {
+        "name": "Healthy Blueberry",
+        "crop": "Blueberry",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+        "name": "Cherry (including sour) - Powdery mildew",
+        "crop": "Cherry",
+        "type": "fungal",
+        "severity": "moderate",
+        "description": "A plant health condition affecting Cherry that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "White powdery growth",
+            "Leaf curling or distortion"
+        ],
+        "causes": [
+            "Powdery mildew fungi"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Cherry_(including_sour)___healthy": {
+        "name": "Healthy Cherry (including sour)",
+        "crop": "Cherry (including sour)",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+        "name": "Corn (maize) - Cercospora leaf spot Gray leaf spot",
+        "crop": "Corn",
+        "type": "fungal",
+        "severity": "moderate_to_high",
+        "description": "A plant health condition affecting Corn that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Gray/tan rectangular leaf lesions",
+            "Lesions may merge"
+        ],
+        "causes": [
+            "Cercospora leaf spot fungi"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Corn_(maize)___Common_rust_": {
+        "name": "Corn (maize) - Common rust ",
+        "crop": "Corn",
+        "type": "fungal",
+        "severity": "moderate",
+        "description": "A plant health condition affecting Corn that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Reddish-brown rust pustules"
+        ],
+        "causes": [
+            "Puccinia sorghi"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+        "name": "Corn (maize) - Northern Leaf Blight",
+        "crop": "Corn",
+        "type": "fungal",
+        "severity": "moderate_to_high",
+        "description": "A plant health condition affecting Corn that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Long cigar-shaped leaf lesions",
+            "Premature leaf death"
+        ],
+        "causes": [
+            "Exserohilum turcicum"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Corn_(maize)___healthy": {
+        "name": "Healthy Corn",
+        "crop": "Corn",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Grape___Black_rot": {
+        "name": "Grape Black Rot",
+        "crop": "Grape",
+        "type": "fungal",
+        "severity": "high",
+        "description": "A plant health condition affecting Grape that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Round tan leaf spots",
+            "Dark shriveled berry mummies"
+        ],
+        "causes": [
+            "Guignardia bidwellii"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Grape___Esca_(Black_Measles)": {
+        "name": "Grape Esca (Black Measles)",
+        "crop": "Grape",
+        "type": "fungal_complex",
+        "severity": "high",
+        "description": "A plant health condition affecting Grape that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Interveinal leaf striping",
+            "Shoot/wood dieback",
+            "Dark fruit spots"
+        ],
+        "causes": [
+            "Wood-infecting fungal complex"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+        "name": "Grape - Leaf blight (Isariopsis Leaf Spot)",
+        "crop": "Grape",
+        "type": "fungal",
+        "severity": "moderate",
+        "description": "A plant health condition affecting Grape that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Dark leaf spots",
+            "Leaf drying or premature drop"
+        ],
+        "causes": [
+            "Fungal infection"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Grape___healthy": {
+        "name": "Healthy Grape",
+        "crop": "Grape",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+        "name": "Citrus Huanglongbing (Citrus Greening)",
+        "crop": "Orange",
+        "type": "bacterial",
+        "severity": "very_high",
+        "description": "A plant health condition affecting Orange that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Blotchy yellowing",
+            "Small or misshapen fruit",
+            "Tree decline"
+        ],
+        "causes": [
+            "Candidatus Liberibacter bacteria"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Peach___Bacterial_spot": {
+        "name": "Peach - Bacterial spot",
+        "crop": "Peach",
+        "type": "bacterial",
+        "severity": "moderate_to_high",
+        "description": "A plant health condition affecting Peach that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Dark leaf spots",
+            "Sunken or cracked fruit spots"
+        ],
+        "causes": [
+            "Xanthomonas bacteria"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Peach___healthy": {
+        "name": "Healthy Peach",
+        "crop": "Peach",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Pepper,_bell___Bacterial_spot": {
+        "name": "Pepper, bell - Bacterial spot",
+        "crop": "Pepper",
+        "type": "bacterial",
+        "severity": "moderate_to_high",
+        "description": "A plant health condition affecting Pepper that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Round brown leaf spots",
+            "Raised corky fruit spots"
+        ],
+        "causes": [
+            "Xanthomonas bacteria"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Pepper,_bell___healthy": {
+        "name": "Healthy Pepper",
+        "crop": "Pepper",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Potato___Early_blight": {
+        "name": "Potato - Early blight",
+        "crop": "Potato",
+        "type": "fungal",
+        "severity": "moderate_to_high",
+        "description": "A plant health condition affecting Potato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Target-like brown leaf spots",
+            "Dark tuber lesions"
+        ],
+        "causes": [
+            "Alternaria solani"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Potato___healthy": {
+        "name": "Healthy Potato",
+        "crop": "Potato",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Potato___Late_blight": {
+        "name": "Potato - Late blight",
+        "crop": "Potato",
+        "type": "oomycete",
+        "severity": "very_high",
+        "description": "A plant health condition affecting Potato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Irregular olive-brown leaf lesions",
+            "Rapid browning in wet weather",
+            "Tuber lesions"
+        ],
+        "causes": [
+            "Phytophthora infestans"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Raspberry___healthy": {
+        "name": "Healthy Raspberry",
+        "crop": "Raspberry",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Soybean___healthy": {
+        "name": "Healthy Soybean",
+        "crop": "Soybean",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Squash___Powdery_mildew": {
+        "name": "Squash - Powdery mildew",
+        "crop": "Squash",
+        "type": "fungal",
+        "severity": "moderate",
+        "description": "A plant health condition affecting Squash that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "White powdery leaf patches",
+            "Leaf yellowing"
+        ],
+        "causes": [
+            "Powdery mildew fungi"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Strawberry___healthy": {
+        "name": "Healthy Strawberry",
+        "crop": "Strawberry",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Strawberry___Leaf_scorch": {
+        "name": "Strawberry - Leaf scorch",
+        "crop": "Strawberry",
+        "type": "fungal",
+        "severity": "moderate",
+        "description": "A plant health condition affecting Strawberry that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Reddish-purple leaf spots",
+            "Scorched appearance"
+        ],
+        "causes": [
+            "Fungal infection"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Tomato___Bacterial_spot": {
+        "name": "Tomato - Bacterial spot",
+        "crop": "Tomato",
+        "type": "bacterial",
+        "severity": "high",
+        "description": "A plant health condition affecting Tomato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Small dark leaf spots with yellow halos",
+            "Corky fruit spots"
+        ],
+        "causes": [
+            "Xanthomonas bacteria"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Tomato___Early_blight": {
+        "name": "Tomato - Early blight",
+        "crop": "Tomato",
+        "type": "fungal",
+        "severity": "high",
+        "description": "A plant health condition affecting Tomato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Brown concentric-ring lesions",
+            "Lower leaf yellowing",
+            "Possible stem/fruit lesions"
+        ],
+        "causes": [
+            "Alternaria fungi"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Tomato___Late_blight": {
+        "name": "Tomato - Late blight",
+        "crop": "Tomato",
+        "type": "oomycete",
+        "severity": "very_high",
+        "description": "A plant health condition affecting Tomato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Water-soaked to brown lesions",
+            "White growth under humid conditions",
+            "Dark fruit lesions"
+        ],
+        "causes": [
+            "Phytophthora infestans"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Tomato___Leaf_Mold": {
+        "name": "Tomato - Leaf Mold",
+        "crop": "Tomato",
+        "type": "fungal",
+        "severity": "moderate",
+        "description": "A plant health condition affecting Tomato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Yellow leaf spots",
+            "Olive-gray growth on undersides"
+        ],
+        "causes": [
+            "Cladosporium-related fungi"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Tomato___Septoria_leaf_spot": {
+        "name": "Tomato - Septoria leaf spot",
+        "crop": "Tomato",
+        "type": "fungal",
+        "severity": "high",
+        "description": "A plant health condition affecting Tomato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Small circular spots with dark margins",
+            "Gray/tan centers",
+            "Defoliation"
+        ],
+        "causes": [
+            "Septoria lycopersici"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+        "name": "Tomato - Spider mites Two-spotted spider mite",
+        "crop": "Tomato",
+        "type": "mite",
+        "severity": "moderate_to_high",
+        "description": "A plant health condition affecting Tomato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Fine yellow stippling",
+            "Bronzing or drying",
+            "Fine webbing"
+        ],
+        "causes": [
+            "Tetranychus urticae"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Tomato___Target_Spot": {
+        "name": "Tomato - Target Spot",
+        "crop": "Tomato",
+        "type": "fungal",
+        "severity": "moderate_to_high",
+        "description": "A plant health condition affecting Tomato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Circular brown lesions",
+            "Target-like rings",
+            "Possible fruit lesions"
+        ],
+        "causes": [
+            "Corynespora cassiicola"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+        "name": "Tomato - Tomato Yellow Leaf Curl Virus",
+        "crop": "Tomato",
+        "type": "viral",
+        "severity": "very_high",
+        "description": "A plant health condition affecting Tomato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Leaf curling",
+            "Yellowing of young leaves",
+            "Stunting",
+            "Reduced fruit set"
+        ],
+        "causes": [
+            "Tomato yellow leaf curl virus complex"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Tomato___Tomato_mosaic_virus": {
+        "name": "Tomato - Tomato mosaic virus",
+        "crop": "Tomato",
+        "type": "viral",
+        "severity": "high",
+        "description": "A plant health condition affecting Tomato that can be recognized from characteristic symptoms.",
+        "symptoms": [
+            "Mosaic light/dark green pattern",
+            "Leaf distortion",
+            "Stunting"
+        ],
+        "causes": [
+            "Tomato mosaic virus"
+        ],
+        "treatment": [
+            "Remove or manage severely affected plant material where practical",
+            "Improve sanitation, airflow and crop management",
+            "Use only locally approved plant-protection products and follow the product label and local agricultural guidance"
+        ],
+        "prevention": [
+            "Use healthy planting material",
+            "Scout the crop regularly",
+            "Avoid prolonged leaf wetness where applicable",
+            "Maintain good sanitation and airflow"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    },
+    "Tomato___healthy": {
+        "name": "Healthy Tomato",
+        "crop": "Tomato",
+        "type": "healthy",
+        "severity": "none",
+        "description": "No characteristic disease symptoms are expected in this class.",
+        "symptoms": [
+            "No characteristic disease symptoms detected"
+        ],
+        "causes": [],
+        "treatment": [
+            "No disease treatment required"
+        ],
+        "prevention": [
+            "Continue normal crop care",
+            "Monitor the crop regularly"
+        ],
+        "medicine_ids": [],
+        "video_ids": []
+    }
+}

@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+.venv/
+
+# API keys and secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local development
+.vscode/
+.pytest_cache/
+
+# Private or temporary uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+__pycache__/

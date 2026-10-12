@@ -1,0 +1,220 @@
+{
+    "M001": {
+        "name": "Mancozeb 75% WP",
+        "active_ingredient": "Mancozeb",
+        "formulation": "75% WP",
+        "category": "fungicide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Early_blight",
+            "Tomato___Late_blight",
+            "Tomato___Septoria_leaf_spot"
+        ],
+        "reference_use": "PPQS AESA-based IPM package for tomato lists mancozeb 75% WP for Alternaria blight/late blight and Septoria leaf spot.",
+        "dose_reference": "600–800 g in 300 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "Use only when the product is registered/labeled for the crop and target disease. Follow the current product label, PPE requirements, pre-harvest interval and local agricultural advice."
+    },
+    "M002": {
+        "name": "Mancozeb 35% SC",
+        "active_ingredient": "Mancozeb",
+        "formulation": "35% SC",
+        "category": "fungicide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Early_blight",
+            "Tomato___Late_blight"
+        ],
+        "reference_use": "PPQS AESA-based IPM package lists mancozeb 35% SC for Alternaria blight and late blight.",
+        "dose_reference": "200 ml in 200 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "Follow the current product label and local agricultural guidance before use."
+    },
+    "M003": {
+        "name": "Zineb 75% WP",
+        "active_ingredient": "Zineb",
+        "formulation": "75% WP",
+        "category": "fungicide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Early_blight",
+            "Tomato___Late_blight"
+        ],
+        "reference_use": "PPQS AESA-based IPM package lists zineb 75% WP for Alternaria blight and late blight.",
+        "dose_reference": "600–800 g in 300–400 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "Confirm current registration and label directions before use."
+    },
+    "M004": {
+        "name": "Famoxadone 16.6% + Cymoxanil 22.1% SC",
+        "active_ingredient": "Famoxadone + Cymoxanil",
+        "formulation": "SC",
+        "category": "fungicide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Early_blight",
+            "Tomato___Late_blight"
+        ],
+        "reference_use": "PPQS AESA-based IPM package lists this combination for Alternaria blight and late blight.",
+        "dose_reference": "200 ml in 200 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "Follow the current registered product label and safety precautions."
+    },
+    "M005": {
+        "name": "Cymoxanil 8% + Mancozeb 64% WP",
+        "active_ingredient": "Cymoxanil + Mancozeb",
+        "formulation": "WP",
+        "category": "fungicide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Early_blight",
+            "Tomato___Late_blight"
+        ],
+        "reference_use": "PPQS AESA-based IPM package lists this combination for Alternaria blight and late blight.",
+        "dose_reference": "600 g in 200–300 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "Confirm current label/registration and follow PPE and pre-harvest requirements."
+    },
+    "M006": {
+        "name": "Azoxystrobin 23% SC",
+        "active_ingredient": "Azoxystrobin",
+        "formulation": "23% SC",
+        "category": "fungicide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Early_blight",
+            "Tomato___Late_blight"
+        ],
+        "reference_use": "PPQS AESA-based IPM package lists azoxystrobin 23% SC for Alternaria blight and late blight.",
+        "dose_reference": "200 ml in 200 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "Use only according to the current registered label and local recommendation."
+    },
+    "M007": {
+        "name": "Copper Oxychloride 50% WP",
+        "active_ingredient": "Copper oxychloride",
+        "formulation": "50% WP",
+        "category": "fungicide/bactericide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Early_blight",
+            "Tomato___Late_blight"
+        ],
+        "reference_use": "PPQS AESA-based IPM package lists copper oxychloride 50% WP for Alternaria blight and late blight.",
+        "dose_reference": "1000 g in 300–400 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "Follow current label directions and avoid use outside approved crop/target combinations."
+    },
+    "M008": {
+        "name": "Cyazafamid 34.5% SC",
+        "active_ingredient": "Cyazafamid",
+        "formulation": "34.5% SC",
+        "category": "fungicide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Early_blight",
+            "Tomato___Late_blight"
+        ],
+        "reference_use": "PPQS AESA-based IPM package lists cyazafamid 34.5% SC for Alternaria blight and late blight.",
+        "dose_reference": "80 ml in 200 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "Verify the current registered label and crop-specific use before application."
+    },
+    "M009": {
+        "name": "Metiram 75% WG",
+        "active_ingredient": "Metiram",
+        "formulation": "75% WG",
+        "category": "fungicide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Early_blight",
+            "Tomato___Late_blight"
+        ],
+        "reference_use": "PPQS AESA-based IPM package lists metiram 75% WG for Alternaria blight and late blight.",
+        "dose_reference": "1000 g in 200–300 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "Follow the current registered product label and local guidance."
+    },
+    "M010": {
+        "name": "Pseudomonas fluorescens 1.75% WP",
+        "active_ingredient": "Pseudomonas fluorescens",
+        "formulation": "1.75% WP",
+        "category": "biopesticide/biocontrol",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Early_blight"
+        ],
+        "reference_use": "CIB&RC meeting minutes record approval of label expansion for Pseudomonas fluorescens 1.75% WP on tomato against early blight caused by Alternaria solani.",
+        "dose_reference": "Use the current registered product label for application details.",
+        "source": "PPQS, 427th Registration Committee meeting minutes",
+        "source_url": "https://ppqs.gov.in/sites/default/files/427_rc_minutes.pdf",
+        "verification_status": "official_registration_reference",
+        "safety_note": "Use according to the current registered label; do not infer a dose from another formulation."
+    },
+    "M011": {
+        "name": "Fenazaquin 10% EC",
+        "active_ingredient": "Fenazaquin",
+        "formulation": "10% EC",
+        "category": "acaricide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Spider_mites Two-spotted_spider_mite"
+        ],
+        "reference_use": "PPQS AESA-based IPM package lists fenazaquin 10% EC for red spider mites in tomato.",
+        "dose_reference": "500 ml in 200 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "Confirm the current registered label and observe all safety and pre-harvest requirements."
+    },
+    "M012": {
+        "name": "Spiromesifen 22.9% SC",
+        "active_ingredient": "Spiromesifen",
+        "formulation": "22.9% SC",
+        "category": "insecticide/acaricide",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Spider_mites Two-spotted_spider_mite",
+            "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+        ],
+        "reference_use": "PPQS AESA-based IPM package lists spiromesifen for red spider mites and as a vector-management option for leaf curl disease.",
+        "dose_reference": "250 ml in 200 L water/acre",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "verification_status": "official_source_reference",
+        "safety_note": "For viral disease, this is vector management, not a cure for the virus. Follow current label directions."
+    },
+    "M013": {
+        "name": "Neem Seed Kernel Extract (NSKE) 5%",
+        "active_ingredient": "Neem seed kernel extract",
+        "formulation": "Botanical extract",
+        "category": "botanical/IPM",
+        "crop": "Tomato",
+        "target_diseases": [
+            "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+        ],
+        "reference_use": "PPQS tomato IPM package lists NSKE 5% as a biological option for managing the whitefly vector associated with leaf curl disease.",
+        "dose_reference": "Follow the current local IPM recommendation for preparation and application.",
+        "source": "PPQS, AESA based IPM – Tomato",
+        "source_url": "https://ppqs.gov.in/sites/default/files/tomato.pdf",
+        "verification_status": "official_source_reference",
+        "safety_note": "This is vector management; it does not cure an already infected plant."
+    }
+}

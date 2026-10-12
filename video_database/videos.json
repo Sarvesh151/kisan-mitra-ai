@@ -1,0 +1,72 @@
+{
+    "V001": {
+        "title": "Tomato Late Blight - Identification and Management",
+        "crop": "Tomato",
+        "disease_ids": [
+            "Tomato___Late_blight"
+        ],
+        "category": "disease_management",
+        "language": "Hindi",
+        "video_url": "https://www.youtube.com/watch?v=PNfrok8DBto",
+        "source_name": "MODERN FARMING 7008",
+        "verified": false,
+        "youtube_title": "टमाटर में लेट ब्लाइट का पक्का इलाज | Late blight of tomato | Amistar top syngenta| Amistar top ",
+        "youtube_video_id": "PNfrok8DBto",
+        "published_at": "2025-07-18T13:30:31Z",
+        "thumbnail": "https://i.ytimg.com/vi/PNfrok8DBto/hqdefault.jpg",
+        "relevance_score": 57
+    },
+    "V002": {
+        "title": "Tomato Early Blight - Identification and Management",
+        "crop": "Tomato",
+        "disease_ids": [
+            "Tomato___Early_blight"
+        ],
+        "category": "disease_management",
+        "language": "Hindi",
+        "video_url": "https://www.youtube.com/watch?v=gKFHqGM-vFw",
+        "source_name": "MODERN FARMING 7008",
+        "verified": false,
+        "youtube_title": "टमाटर में झुलसा रोग | Tomato Blight Control | Early blight| Late Blight | Best Fungicide ",
+        "youtube_video_id": "gKFHqGM-vFw",
+        "published_at": "2025-11-09T14:01:07Z",
+        "thumbnail": "https://i.ytimg.com/vi/gKFHqGM-vFw/hqdefault.jpg",
+        "relevance_score": 42
+    },
+    "V003": {
+        "title": "Tomato Leaf Curl Virus - Identification and Management",
+        "crop": "Tomato",
+        "disease_ids": [
+            "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+        ],
+        "category": "disease_management",
+        "language": "Hindi",
+        "video_url": "https://www.youtube.com/watch?v=a7LfBvTbnUU",
+        "source_name": "KiroClasses",
+        "verified": false,
+        "youtube_title": "TYLCV : Tomato Yellow Leaf Curl Virus | Leaf Curl of Tomato | Tamatar me lagne wale rog",
+        "youtube_video_id": "a7LfBvTbnUU",
+        "published_at": "2022-05-26T13:15:46Z",
+        "thumbnail": "https://i.ytimg.com/vi/a7LfBvTbnUU/hqdefault.jpg",
+        "relevance_score": 84
+    },
+    "V004": {
+        "title": "Tomato Disease Prevention Guide",
+        "crop": "Tomato",
+        "disease_ids": [
+            "Tomato___Late_blight",
+            "Tomato___Early_blight",
+            "Tomato___Septoria_leaf_spot"
+        ],
+        "category": "prevention",
+        "language": "Hindi",
+        "video_url": "https://www.youtube.com/watch?v=CE8y9jhHghU",
+        "source_name": "TIRDIYA CLASSES",
+        "verified": false,
+        "youtube_title": "Diseases of Tomato: Cause, Symptoms and management/ टमाटर के रोग / Tirdiya Classes",
+        "youtube_video_id": "CE8y9jhHghU",
+        "published_at": "2024-12-05T12:30:14Z",
+        "thumbnail": "https://i.ytimg.com/vi/CE8y9jhHghU/hqdefault.jpg",
+        "relevance_score": 18
+    }
+}
