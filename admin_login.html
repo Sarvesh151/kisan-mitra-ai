@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Login - Kisan Mitra AI</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-family: Arial, sans-serif;
+
+            background: linear-gradient(
+                135deg,
+                #e9f7ec,
+                #f8fff9
+            );
+        }
+
+        .login-card {
+            width: 420px;
+            max-width: 92%;
+
+            background: white;
+
+            padding: 35px;
+
+            border-radius: 20px;
+
+            box-shadow:
+                0 15px 45px
+                rgba(0, 0, 0, 0.10);
+        }
+
+        .logo {
+            width: 75px;
+            height: 75px;
+
+            margin: auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 22px;
+
+            background: #e9f7eb;
+
+            font-size: 40px;
+        }
+
+        h1 {
+            text-align: center;
+
+            color: #1d4d2a;
+
+            margin: 18px 0 5px;
+        }
+
+        .subtitle {
+            text-align: center;
+
+            color: #6b7d70;
+
+            margin-bottom: 25px;
+        }
+
+        .admin-badge {
+            text-align: center;
+
+            background: #eef8f0;
+
+            color: #358044;
+
+            padding: 10px;
+
+            border-radius: 8px;
+
+            font-weight: bold;
+
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+
+            margin: 13px 0 6px;
+
+            font-weight: 600;
+
+            color: #36523d;
+        }
+
+        input {
+            width: 100%;
+
+            padding: 13px;
+
+            border: 1px solid #d7e3da;
+
+            border-radius: 9px;
+
+            outline: none;
+
+            font-size: 15px;
+        }
+
+        input:focus {
+            border-color: #4d9c5d;
+        }
+
+        button {
+            width: 100%;
+
+            border: none;
+
+            padding: 14px;
+
+            margin-top: 22px;
+
+            border-radius: 9px;
+
+            background: #246b35;
+
+            color: white;
+
+            font-size: 16px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1c582b;
+        }
+
+        .error {
+            background: #fff0f0;
+
+            border: 1px solid #efc3c3;
+
+            color: #a32626;
+
+            padding: 10px;
+
+            border-radius: 8px;
+
+            margin-bottom: 15px;
+
+            text-align: center;
+        }
+
+        .back {
+            text-align: center;
+
+            margin-top: 20px;
+        }
+
+        .back a {
+            color: #358044;
+
+            text-decoration: none;
+
+            font-weight: bold;
+        }
+
+        .back a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="login-card">
+
+        <div class="logo">
+            🌱
+        </div>
+
+        <h1>
+            Kisan Mitra AI
+        </h1>
+
+        <div class="subtitle">
+            Smart Crop Disease Assistant
+        </div>
+
+        <div class="admin-badge">
+            🔐 Administrator Access
+        </div>
+
+        {% if error %}
+
+        <div class="error">
+            {{ error }}
+        </div>
+
+        {% endif %}
+
+        <form method="POST" action="/admin-login">
+
+            <label>
+                Admin Email
+            </label>
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Enter admin email"
+                required
+            >
+
+            <label>
+                Password
+            </label>
+
+            <input
+                type="password"
+                name="password"
+                placeholder="Enter admin password"
+                required
+            >
+
+            <button type="submit">
+                🔐 Admin Login
+            </button>
+
+        </form>
+
+        <div class="back">
+
+            <a href="/login">
+                ← Back to Farmer Login
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
